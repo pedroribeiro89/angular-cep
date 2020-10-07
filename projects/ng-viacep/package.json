@@ -1,0 +1,11 @@
+{
+  "name": "angular-cep",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0",
+    "@angular/material": "^9.2.4"
+  }
+}
+

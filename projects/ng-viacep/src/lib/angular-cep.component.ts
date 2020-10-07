@@ -3,24 +3,19 @@ import {AngularCepService} from './angular-cep.service';
 import {IViacepAddress, IViacepAddressError} from './viacep-address';
 
 @Component({
-  selector: 'angular-cep-material',
+  selector: 'angular-cep',
   template: `
-    <mat-form-field>
-      <mat-label>CEP</mat-label>
-      <input matInput #cep [placeholder]="placeholder" type="text" maxlength="9" [(ngModel)]="displayValue" (ngModelChange)="onChangeValue($event)" />
-    </mat-form-field>
+    <input #cep [placeholder]="placeholder" type="text" maxlength="9" [(ngModel)]="displayValue" (ngModelChange)="onChangeValue($event)" />
   `,
   styles: []
 })
-export class AngularCepMaterialComponent implements OnInit {
+export class AngularCepComponent implements OnInit {
 
-  @Input() label = 'CEP';
-  @Input() placeholder = 'XXXXX-XX';
   @Output() loadedCEP = new EventEmitter<IViacepAddress | IViacepAddressError>();
+  @Input() placeholder = 'XXXXX-XX';
   @ViewChild('cep') input: ElementRef;
   public displayValue = '';
   public value = '';
-
 
   constructor(private service: AngularCepService) { }
 

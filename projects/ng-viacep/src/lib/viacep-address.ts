@@ -1,4 +1,4 @@
-export interface IAddress {
+export interface IViacepAddress {
   cep: string;
   logradouro: string;
   complemento: string;
@@ -11,6 +11,6 @@ export interface IAddress {
   siafi: number;
 }
 
-export interface IAddressError {
+export interface IViacepAddressError {
   erro: boolean;
 }
