@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {IViacepAddress, IViacepAddressError} from '../../projects/ng-viacep/src/lib/viacep-address';
+import {IViacepAddress, IViacepAddressError} from '../../projects/angular-cep/src/lib/viacep-address';
 
 @Component({
   selector: 'app-root',

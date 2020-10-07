@@ -1,5 +1,5 @@
 /*
- * Public API Surface of ng-viacep
+ * Public API Surface of angular-cep
  */
 
 export * from './lib/angular-cep.service';

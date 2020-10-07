@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {AngularCepModule} from '../../projects/ng-viacep/src/lib/angular-cep.module';
+import {AngularCepModule} from '../../projects/angular-cep/src/lib/angular-cep.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
 
