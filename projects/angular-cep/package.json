@@ -1,6 +1,24 @@
 {
   "name": "angular-cep",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "description": "An Angular CEP(Brazilian ZIP code) input field",
+  "author": "pedroribeiro89",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/pedroribeiro89/angular-cep"
+  },
+  "bugs": {
+  	"url": "https://github.com/pedroribeiro89/angular-cep/issues"
+  },
+  "homepage": "https://github.com/pedroribeiro89",
+  "keywords": [
+  	"angular",
+  	"cep",
+  	"typescript",
+  	"material",
+  	"angular-material"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.0.7",
     "@angular/core": "^9.0.7",
